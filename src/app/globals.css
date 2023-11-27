@@ -105,3 +105,62 @@ a {
     color-scheme: dark;
   }
 }
+.newsCardTitle{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px; /* 123.529% */
+  letter-spacing: -0.32px;
+}
+.newsCardRegular{
+  color: rgba(255, 255, 255, 0.60);
+  text-align: start;
+  font-feature-settings: 'case' on;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px; /* 183.333% */
+  letter-spacing: -0.408px;
+  text-transform: uppercase;
+}
+.newsCardTime{
+  color: rgba(255, 255, 255, 0.60);
+  text-align: start;
+  font-feature-settings: 'case' on;
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 169.231% */
+  letter-spacing: -0.408px;
+}
+
+.menuItemText{
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; /* 16.9px */
+  text-transform: uppercase;
+}
+.leftBarTitle{
+  text-align: center;
+  color: rgba(255, 255, 255, 0.50);
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; /* 16.9px */
+  text-transform: uppercase;
+}
+.leftBarItem{
+  color: rgba(235, 235, 245, 1);
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%; /* 22.1px */
+}

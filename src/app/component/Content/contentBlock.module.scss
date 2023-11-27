@@ -1,0 +1,21 @@
+.contentBlockWrapper{
+  display: flex;
+}
+.newsContentWrapper{
+  z-index: 1;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 32px 56px;
+  display: grid;
+  row-gap: 40px;
+  grid-template-columns: 33% 33% 33%;
+  background: linear-gradient(180deg, #2B2F53 0%, #1D1C34 33.96%);
+  box-shadow: -10px 30px 80px 0px rgba(59, 38, 123, 0.70);
+
+  @media screen and (max-width: 1550px) {
+    grid-template-columns: 50% 50%;
+  }
+  @media screen and (max-width: 1124px) {
+    grid-template-columns: 100%;
+  }
+}

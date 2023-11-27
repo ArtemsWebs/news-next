@@ -1,0 +1,16 @@
+.navbarWrapper{
+  width: 100%;
+  height: 56px;
+  background-color:#454B79;
+  display: flex;
+  z-index: 1;
+  align-items: center;
+
+}
+.iconsWrapper{
+  display: flex;
+  align-items: center;
+  width: 240px;
+  gap: 18px;
+  justify-content: center;
+}

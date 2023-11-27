@@ -1,0 +1,15 @@
+{
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": true,
+  "singleQuote": true,
+  "bracketSpacing": true,
+  "importOrder": [
+    "react",
+    "<THIRD_PARTY_MODULES>",
+    "^(?:app|processes|pages|widgets|features|entities|shared)",
+    "^./"
+  ],
+  "importOrderSeparation": true,
+  "endOfLine": "lf"
+}
